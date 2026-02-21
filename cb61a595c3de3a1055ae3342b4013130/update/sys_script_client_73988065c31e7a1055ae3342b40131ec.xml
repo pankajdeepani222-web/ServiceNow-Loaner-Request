@@ -14,7 +14,7 @@
    if (isLoading || newValue === '') {
       return;
    }
-
+// Urgent notification logic added
    g_form.setMandatory('short_description', true);
    g_form.setReadOnly('description', true);
    alert("validation complete. Record is now locked for auditing.");
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73988065c31e7a1055ae3342b40131ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Emergency Hardware Refresh</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_1811372_loaner_0">cb61a595c3de3a1055ae3342b4013130</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Loaner Request">cb61a595c3de3a1055ae3342b4013130</sys_scope>
         <sys_update_name>sys_script_client_73988065c31e7a1055ae3342b40131ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-07 06:09:34</sys_updated_on>
+        <sys_updated_on>2026-02-21 10:56:12</sys_updated_on>
         <table>incident</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
