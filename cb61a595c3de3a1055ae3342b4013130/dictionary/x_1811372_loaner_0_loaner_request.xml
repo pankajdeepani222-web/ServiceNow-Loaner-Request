@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9dc36959c3de3a1055ae3342b4013151" extends="task" label="Loaner Request" max_length="40" name="x_1811372_loaner_0_loaner_request" type="collection"/>
+    <element db_object_id="9dc36959c3de3a1055ae3342b4013151" extends="task" label="Loaner Request" max_length="40" name="x_1811372_loaner_0_loaner_request" type="collection">
+        <element label="Audio Label" mandatory="true" max_length="100" name="audio_label" type="audio"/>
+    </element>
 </database>
